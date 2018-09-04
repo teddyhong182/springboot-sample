@@ -1,0 +1,8 @@
+# 출력되는 로그에 색상 출력
+spring:
+  output:
+    ansi:
+      enabled: always
+# 생성되는 로그 파일명
+logging:
+  file: application.log
